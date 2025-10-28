@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/yourname/CalendarPicker.git'
+                git branch: 'main', url: 'https://github.com/Pooja-R2005/calender-picker.git'
             }
         }
         stage('Build and Run Java') {
